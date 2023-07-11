@@ -4,6 +4,8 @@ const app = express()
 // Heroku dynamically sets a port
 const PORT = process.env.PORT || 5000
 
+console.log("checking if the process object is available", process);
+
 app.use(express.static('dist'))
 
 app.listen(PORT, () => {
