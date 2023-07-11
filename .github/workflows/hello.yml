@@ -14,3 +14,9 @@ jobs:
           echo "Hello World"
           echo "This is multiline testing"
           echo "Checking CI/CD"
+          
+      - name: Now it is
+        run: Date
+
+      - name: Directory Content
+        run: ls -la
