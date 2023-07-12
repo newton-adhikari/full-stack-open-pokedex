@@ -8,6 +8,7 @@ app.use(express.static('dist'))
 
 app.get('/', () => {
   console.log('hello from express')
+  return
 })
 
 app.listen(PORT, () => {
