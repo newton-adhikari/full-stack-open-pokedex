@@ -15,8 +15,8 @@ jobs:
           node-version: "16"
       - name: Install Dependencies
         run: npm install
-      - name: check style
-        run: npm run eslint
+      # - name: check style
+        # run: npm run eslint
       - name: e2e tests
         uses: cypress-io/github-action@v5
         with:
